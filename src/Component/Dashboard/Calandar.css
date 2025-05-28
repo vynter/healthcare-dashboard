@@ -1,0 +1,435 @@
+
+.caln-cont {
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    background-color: #f6faff;   
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 60px 80px; 
+    height: 2rem;
+    width: 27rem;
+    margin-top: -41.5rem;
+    margin-left: 58rem;
+    padding-top: 37rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+} 
+
+.span-MY {
+    margin-top: -62rem;
+    margin-left: -4rem;
+    color: #0c164e;
+}
+ 
+
+
+.arrow-left {
+    margin-top: -61rem;
+    padding: auto;
+    color: #0c164e;
+    margin-right: -18rem;
+    font-size: 1.5rem;
+}
+
+.arrow-right {
+    color: #0c164e;
+    margin-top: -61rem;
+    margin-right: -48rem;
+    font-size: 1.5rem;
+}
+
+
+
+.caln-table {
+    border-collapse: separate;
+    border-spacing: 10px 1px;
+    margin-top: -26rem;
+    margin-right: -1rem;
+    width: 30rem;
+    height: 5rem;
+}
+/* 
+.caln-table th,
+.caln-table td {
+    padding: 1px 1px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+} */
+
+.caln-n {
+    display: flex;
+    font-size: 1rem;
+}
+
+.column-highlight {
+    position: absolute;
+    top: 0;
+    left: calc(2 * 54px); 
+    width: 78px;           
+    height: 30vh;
+    margin-top: 8rem;
+    background-color: #999fc3;
+    border-radius: 12px;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.highlight-col {
+  background-color: #0c164e;
+  border-radius: 8px;
+}
+
+
+.time-pill {
+    position: relative;
+    display: inline-block;
+    background-color: #4B3FE4; 
+    color: white;
+    z-index: 10;
+    padding: 4px 12px;
+    border-radius: 7px;
+    font-size: 14px;
+    margin-top: 1.6vh;
+    text-align: center;
+}
+
+.time-pill {
+    position: relative;
+    display: inline-block;
+    background-color: #4B3FE4; 
+    color: white;
+    z-index: 10;
+    padding: 5px 12px;
+    border-radius: 7px;
+    font-size: 14px;
+    margin-top: 1.6vh;
+    text-align: center;
+}
+
+
+.time-pill2 {
+    position: relative;
+    display: inline-block;
+    background-color: #b0b4dc; 
+    color: white;
+    z-index: 10;
+    padding: 5px 12px;
+    border-radius: 7px;
+    font-size: 14px;
+    margin-top: 1.6vh;
+    text-align: center;
+}
+
+.dot {
+   width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 4px;
+}
+
+.pill-multi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c0bdf3;
+  margin-right: -15vh;
+  border-radius: 9px;
+  padding: 4px 4px;
+  width: 13vh; 
+}
+
+.pill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 6px;
+}
+
+.time {
+  color: white;
+  font-size: 0.7rem;
+}
+
+.time1 {
+  color: white;
+  font-size: 0.7rem;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 4px;
+}
+
+.single-pill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c0bdf3;
+    margin-right: -15vh;
+    border-radius: 9px;
+    padding: 4px 4px;
+    width: 6vh; 
+}
+
+.dent-card {
+    display: grid;
+    background-color: #3834ac;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 150px;
+    height: 81px;
+    justify-content: space-between;
+    /* margin-top: rem; */
+    margin-top: 2%;
+    margin-right: -4rem;
+
+}
+
+.dent-header {
+    display: flex;
+    
+}
+.dent-img {
+    font-size: 2rem;
+    margin-left: 3rem;
+    
+}
+
+.dent-title {
+    margin-top: 0.8rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #1b1d4a;
+}
+
+.dent-date {
+    font-size: 0.85rem;
+    color: #bbb;
+    margin-top: -0.4rem;
+}
+
+.dent-doc {
+    font-size: small;
+    font-size: 0.82rem;
+    margin-top: -10px;
+    color: #bbb;
+}
+
+.arm-card {
+    display: grid;
+    background-color: #e0e4fc;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 289px;
+    height: 82px;
+    justify-content: space-between;
+    margin-top: -6.3rem;
+    margin-left: 11rem;
+
+}
+
+.arm-header {
+    display: flex;
+    
+}
+.arm-img {
+    font-size: 1rem;
+    margin-left: 3rem;
+    
+}
+
+.arm-title {
+    padding: auto;
+    margin-top: 0.9rem;
+    font-weight: bolder;
+    font-size: 0.9rem;
+    color: #1b1d4a;
+}
+
+.arm-date {
+    font-size: 0.85rem;
+    color: #000000;
+    margin-top: -0.4rem;
+}
+
+.arm-doc {
+    font-size: small;
+    font-size: 0.82rem;
+    margin-top: -10px;
+    color: #000000;
+}
+
+.shedule {
+    color: #0c164e;
+    font-weight: 700;
+    margin-top: 2px
+}
+
+.thurs {
+    margin-top: -0.8rem;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.hcc-card {
+    display: grid;
+    background-color: #e0e4fc;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 240px;
+    height: 54px;
+    justify-content: space-between;
+    margin-top: -0.9rem;
+    margin-left: 0.1rem;
+
+}
+
+.hcc-header {
+    display: flex;
+    
+}
+.hcc-img {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    
+}
+
+.hcc-title {
+    padding: auto;
+    margin-top: -rem;
+    font-weight: bolder;
+    letter-spacing: -0.69px;
+    color: #1b1d4a;
+}
+
+.hcc-date {
+    font-size: 0.8rem;
+    color: #000000;
+    margin-top: -1rem;
+}
+
+.eye-card {
+    display: grid;
+    background-color: #e0e4fc;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 200px;
+    height: 54px;
+    justify-content: space-between;
+    margin-top: -4.4rem;
+    margin-left: 16.5rem;
+
+}
+
+.eye-header {
+    display: flex;
+    
+}
+.eye-img {
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+    
+}
+
+.eye-title {
+    padding: auto;
+    margin-top: 0.1rem;
+    font-weight: bolder;
+    /* letter-spacing: -0.69px; */
+    font-size: 1rem;
+    color: #1b1d4a;
+}
+
+.eye-date {
+    font-size: 0.8rem;
+    color: #bbb;
+    margin-top: -0.5rem;
+}
+
+.sat {
+    color: gray;
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+}
+
+.cardio-card {
+    display: grid;
+    background-color: #e0e4fc;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 165px;
+    height: 55px;
+    justify-content: space-between;
+    margin-top: -0.8rem;
+    margin-left: 0.2rem;
+
+}
+
+.cardio-header {
+    display: flex;
+    
+}
+.cardio-img {
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+    
+}
+
+.cardio-title {
+    padding: auto;
+    margin-top: 0.1rem;
+    font-weight: bolder;
+    /* letter-spacing: -0.69px; */
+    font-size: 1rem;
+    color: #1b1d4a;
+}
+
+.cardio-date {
+    font-size: 0.8rem;
+    color: #000000;
+    margin-top: -0.5rem;
+}
+
+.neuro-card {
+    display: grid;
+    background-color: #e0e4fc;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 165px;
+    height: 55px;
+    justify-content: space-between;
+    margin-top: -4.5rem;
+    margin-left: 12rem;
+
+}
+
+.neuro-header {
+    display: flex;
+    
+}
+.neuro-img {
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+    
+}
+
+.neuro-title {
+    padding: auto;
+    margin-top: 0.1rem;
+    font-weight: bolder;
+    /* letter-spacing: -0.69px; */
+    font-size: 1rem;
+    color: #1b1d4a;
+}
+
+.neuro-date {
+    font-size: 0.8rem;
+    color: #000000;
+    margin-top: -0.5rem;
+}

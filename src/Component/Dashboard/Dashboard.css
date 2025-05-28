@@ -1,0 +1,273 @@
+.Dash-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 60px 80px; 
+    height: 29rem;
+    width: 27rem;
+    margin-left: 40vh;
+    margin-top: -7vh;
+    padding-top: 9vh;
+}
+
+.Dash-span {
+    font-weight: 700;
+    font-size: 3.3vh;
+    margin-top: -34rem;
+    margin-left: -5rem;
+}
+
+.Dash-p {
+    font-size: 1.5vh;
+    color: #3834ac;
+    margin-top: -70vh;
+    padding: auto;
+    margin-left: 23rem;
+}
+.p-down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border: solid #3834ac;  
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+}
+
+.skel-cont {
+    display: flex;
+    position:static;
+    background-color: #f6faff;
+    margin-top: -10rem;
+    margin-left: -36rem;
+    height: 21rem;
+    width: 15rem;
+    border-radius: 10px
+}
+
+.skel-cont img {
+    margin-left: 4.9vh;
+    height: 19rem;
+    width: 20vh;
+    margin-top: 1vh;
+}
+
+.scan-cont {
+    display: flex;
+}
+.scan-cont img {
+    height: 7vh;
+    margin-top: -12.3rem;
+    margin-left: -10.5rem;
+    opacity: 0.8;
+}
+
+.scan1 {
+    display: flex;
+}
+
+.scan1 img {
+    height: 7vh;
+    margin-left: -13.6rem;
+    margin-top: -3.8rem;
+    opacity: 0.8;
+}
+
+.Rotate {
+    display: flex;
+}
+
+.Rotate img {
+    margin-left: -37vh;
+    margin-top: 19vh;
+    opacity: 0.5;
+}
+
+.heart-cont {
+    background-color: #2f2fab;
+    color: white;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 21.5rem;
+    margin-left: 5.5rem;
+}
+
+.heart-p {
+    color: #ffffff;
+}
+
+.leg-cont {
+    background-color: #04e4f8;
+    color: white;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+    padding: 0.6rem 0.6rem;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 4.2rem;
+    margin-left: -6.5rem;
+}
+
+.zoom img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 28.4rem;
+    margin-left: -8.5rem;   
+}
+
+.lungs-card {
+    background-color: #f6f9ff;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 160px;
+    height: 95px;
+    justify-content: space-between;
+    margin-top: -23.7rem;
+    margin-right: -12.5rem;
+}
+
+.lungs-header {
+    display: flex;
+}
+.lungs-img {
+    font-size: 2rem;
+}
+
+.lungs-title {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #1b1d4a;
+}
+
+.lungs-date {
+    font-size: 0.85rem;
+    color: #bbb;
+    margin-top: 0.4rem;
+}
+
+.Progress-bar {
+    background-color: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: -0.5rem;
+}
+
+.progress-filled {
+    background-color: #d64545;
+    height: 100%;
+    width: 70%;
+    border-radius: 5px ;
+}
+
+.teeth-card {
+    background-color: #f6f9ff;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 160px;
+    height: 95px;
+    justify-content: space-between;
+    margin-right: -12.5rem;
+    margin-top: -8.5rem;
+}
+
+.teeth-header {
+    display: flex;
+}
+.teeth-img {
+    font-size: 2rem;
+}
+
+.teeth-title {
+    margin-top: 1.2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #1b1d4a;
+}
+
+.teeth-date {
+    font-size: 0.85rem;
+    color: #bbb;
+    margin-top: 0.4rem;
+}
+
+.progress2-bar {
+    background-color: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: -0.5rem;
+}
+
+.progress2-filled {
+    background-color: #7cd4c8;
+    height: 100%;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.bone-card {
+    display: grid;
+    background-color: #f6f9ff;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 160px;
+    height: 95px;
+    justify-content: space-between;
+    margin-top: 6.5rem;
+    margin-right: -4rem;
+}
+
+.bone-header {
+    display: flex;
+}
+.bone-img {
+    font-size: 2rem;
+}
+
+.bone-title {
+    margin-top: 1.2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #1b1d4a;
+}
+
+.bone-date {
+    font-size: 0.85rem;
+    color: #bbb;
+    margin-top: 0.3rem;
+}
+
+.progress3-bar {
+    background-color: #e0e0e0;
+    height: 10px;
+    width: 22vh;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: -0.5rem;
+}
+
+.progress3-filled {
+    background-color: #fc7c60;
+    height: 100%;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.details {
+    font-size: 1.7vh;
+    margin-top: 16rem;
+    margin-right: -4rem;
+    color: #2f2fab;
+}
